@@ -27,6 +27,7 @@ requirements:
     - requests
     - tabulate
     - texttable
+    - urllib3
 
 test:
   imports:
