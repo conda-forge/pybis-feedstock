@@ -20,7 +20,6 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - click
     - pandas
     - pytest
     - python >=3.6
