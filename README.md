@@ -1,11 +1,11 @@
-About pybis
-===========
+About pybis-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pybis-feedstock/blob/main/LICENSE.txt)
 
 Home: https://sissource.ethz.ch/sispub/openbis/tree/master/pybis
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pybis-feedstock/blob/main/LICENSE.txt)
 
 Summary: openBIS connection and interaction, optimized for using with Jupyter
 
