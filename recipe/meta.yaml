@@ -23,6 +23,7 @@ requirements:
     - pandas
     - pytest
     - python >=3.6
+    - python-dateutil
     - requests
     - tabulate
     - texttable
