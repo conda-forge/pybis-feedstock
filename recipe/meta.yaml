@@ -1,5 +1,5 @@
 {% set name = "PyBIS" %}
-{% set version = "1.35.6" %}
+{% set version = "1.35.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bbb7e0dce4127072048fc61c3fd70fb2d937f2f97a9b1cab2cfc9d323438bb71
+  sha256: 8fd0d238966ab309d7e402d7938a643d4370c5df73f37da5c6fe69d44012363e
 
 build:
   number: 0
