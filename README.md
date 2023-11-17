@@ -154,4 +154,5 @@ Feedstock Maintainers
 =====================
 
 * [@fabianegli](https://github.com/fabianegli/)
+* [@laskadam](https://github.com/laskadam/)
 
