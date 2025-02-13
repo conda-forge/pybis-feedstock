@@ -3,13 +3,13 @@ About pybis-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pybis-feedstock/blob/main/LICENSE.txt)
 
-Home: https://sissource.ethz.ch/sispub/openbis/tree/master/pybis
+Home: https://sissource.ethz.ch/sispub/openbis/tree/master/api-openbis-python3-pybis
 
 Package license: Apache-2.0
 
 Summary: openBIS connection and interaction, optimized for using with Jupyter
 
-Documentation: https://sissource.ethz.ch/sispub/openbis/-/tree/master/pybis/src/python
+Documentation: https://sissource.ethz.ch/sispub/openbis/tree/master/api-openbis-python3-pybis/src/python
 
 pyBIS is a Python module for interacting with openBIS. pyBIS is
 designed to be most useful in a Jupyter Notebook or IPython
