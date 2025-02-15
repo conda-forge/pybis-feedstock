@@ -18,7 +18,8 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - setuptools
+    - python 3.6
   run:
     - pandas
     - pytest
@@ -36,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python 3.6
 
 about:
   home: https://sissource.ethz.ch/sispub/openbis/tree/master/api-openbis-python3-pybis
