@@ -1,5 +1,5 @@
 {% set name = "PyBIS" %}
-{% set version = "1.37.0" %}
+{% set version = "1.37.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9ba209f4683722c72a6c1be07e7f38b9e1391815bd01d6f6e308098d01332df
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4baf5a81b319dbd63b91a6e634fd90058046f7f6f745d8cc169f973447c8b5c1
 
 build:
   number: 0
@@ -18,7 +18,8 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - setuptools
+    - python 3.6
   run:
     - pandas
     - pytest
@@ -36,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python 3.6
 
 about:
   home: https://sissource.ethz.ch/sispub/openbis/tree/master/api-openbis-python3-pybis
