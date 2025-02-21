@@ -11,19 +11,19 @@ source:
   sha256: 2984fbddbbe957506e4a30c2ce878a496814f5f06a5c694fefab93ee37eee9ca
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
+    - python {{ python_min }}
     - setuptools
-    - python 3.6
   run:
     - pandas
     - pytest
-    - python >=3.6
+    - python >={{ python_min }}
     - python-dateutil
     - requests
     - tabulate
@@ -37,7 +37,7 @@ test:
     - pip check
   requires:
     - pip
-    - python 3.6
+    - python {{ python_min }}
 
 about:
   home: https://sissource.ethz.ch/sispub/openbis/tree/master/api-openbis-python3-pybis
